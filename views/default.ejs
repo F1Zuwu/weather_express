@@ -7,10 +7,10 @@
                 <li class="list-group-item" id="temp"><%= temp %>°C</li>
             </ul>
             <h1 class="mt-3">Change city</h1>
-            <form id="change-city">
+            <form id="change-city" method="post" action="/">
                 <div class="form-group">
                     <label for="city-name">City</label>
-                    <input class="form-control" type="text" id="city-name"></input>   
+                    <input class="form-control" type="text" id="city-name" name="cityname"></input>   
 
                 </div>
                 <input type="submit" class="btn btn-grey" value="Save Changes"></input>
